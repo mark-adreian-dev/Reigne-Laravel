@@ -58,12 +58,11 @@ const AddBook = () => {
             
             })
         
-            .then(response => response.json())
-            .then(response => {
-                console.log(response)
+            .then(() => {
                 alert(`The book is successfully added`)
-                // window.location.href = `/`
+                window.location.href = `/`
             })
+    
             .catch(err => console.log(err))
         }
     }
