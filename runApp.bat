@@ -26,5 +26,5 @@ start /B "" cmd /C "cd /d %cd%\frontend && npm run dev"
 timeout /t 1
 
 ::Launch webpage
-start http://localhost:3000
+start http://localhost:5173
 
